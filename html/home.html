@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/home.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v6.2.0/css/all.min.css"
-    />
     <title>I.T Computer</title>
   </head>
   <body>
-    <header>
+    <div class="header">
       <div class="currency">
         <div class="dropdown">
           <button class="dropbtn">
@@ -44,42 +40,47 @@
           </li>
         </ul>
       </nav>
-    </header>
-
+    </div>
     <!-- LOGO -->
-
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div id="logo">
-            <a href="http://www.itcomputerkh.com/"
-              ><img
-                src="http://www.itcomputerkh.com/image/catalog/logo IT/website logo-01.png"
-                title="I.T COMPUTER"
-                alt="I.T COMPUTER"
-                class="img-responsive"
-            /></a>
+      <div id="logo">
+        <img
+          src="http://www.itcomputerkh.com/image/catalog/logo IT/website logo-01.png"
+          title="I.T COMPUTER"
+          alt="I.T COMPUTER"
+          class="img-responsive"
+        />
+      </div>
+      <div id="search" class="search-group">
+        <form class="d-flex" role="search">
+          <div class="action">
+            <input type="text">
+            <button>Search</button>
           </div>
-        </div>
-        <div class="col-sm-5">&nbsp;</div>
-
-        <div class="col-sm-3">
-          <div id="search" class="input-group">
-            <input
-              type="text"
-              name="search"
-              value=""
-              placeholder="Search"
-              class="form-control input-lg"
-            />
-            <span class="input-group-btn">
-              <button type="button" class="btn btn-default btn-lg">
-                <i class="fa fa-search"></i>
-              </button>
-            </span>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
+
+    <!-- menu bar -->
+    <div class="menu-bar">
+        <ul class="nav__links">
+          <li class="item">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <div class="dropdown">
+              <button class="drop-btn">Laptop</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <a href="#">Desktop</a>
+            <a href="#">Shopping Cart</a>
+            <a href="#">Shopping Cart</a>
+            <a href="#">Shopping Cart</a>
+            <a href="#">Shopping Cart</a>
+          </li>
+        </ul>
   </body>
 </html>
