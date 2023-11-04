@@ -11,6 +11,46 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>I.T Computer</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        margin-top: -10px;
+        padding: 10px;
+        height: 150px; /* Should be removed. Only for demonstration */
+      }
+    
+      .column img {
+        width: 100%;
+        background-color: white;
+      }
+    
+      .row {
+        padding: 10px 16%;
+      }
+    
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 0rem;
+      }
+    </style>
   </head>
   <body>
     <div class="header">
@@ -47,23 +87,28 @@
       </nav>
     </div>
     <!-- LOGO -->
-    <div class="containers">
-      <div id="logo">
+    <div class="row">
+      <div class="column" style="background-color:#ffffff;">
         <img
-          src="http://www.itcomputerkh.com/image/catalog/logo IT/website logo-01.png"
-          title="I.T COMPUTER"
-          alt="I.T COMPUTER"
-          class="img-responsive" />
+        src="http://www.itcomputerkh.com/image/catalog/logo IT/website logo-01.png"
+        title="I.T COMPUTER"
+        alt="I.T COMPUTER"
+        class="img-responsive" />
       </div>
-      <div id="search" class="search-group">
-        <form class="d-flex" role="search">
-          <div class="action">
-            <input type="text">
-            <button>Search</button>
+      <div class="column" style="background-color:#ffffff;">
+        
+      </div>
+      <div class="column" style="background-color:#ffffff;">
+        <nav class="navbar bg-body-tertiary" style="padding-right: 5px;">
+          <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
-        </form>
+        </nav>          
       </div>
-      
     </div>
 
     <!-- menu bar -->
