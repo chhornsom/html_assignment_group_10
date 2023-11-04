@@ -64,7 +64,7 @@ button:hover {
 }
 
 /* LOGO WEBSITE */
-.container {
+.containers {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -171,4 +171,7 @@ button:hover {
 .dropdown:hover .dropdown-content {display: block;}
 .carousel-item{
   min-height: 280px;
+}
+.dropdown-toggle {
+  border: none;
 }
