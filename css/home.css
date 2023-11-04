@@ -116,7 +116,13 @@ button:hover {
   margin-right: 17.5%;
   border-radius: 5px;
 }
-
+.containers-lg {
+  padding: 12px 0px 14px 0px;
+  font-size: 14px;
+  background-color: white;
+  margin-left: 18%;
+  margin-right: 17.5%;
+}
 .menu-bar ul a {
   color: white;
   text-decoration: none;
@@ -163,3 +169,6 @@ button:hover {
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
+.carousel-item{
+  min-height: 280px;
+}
