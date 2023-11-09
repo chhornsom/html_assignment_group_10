@@ -175,3 +175,7 @@ button:hover {
 .dropdown-toggle {
   border: none;
 }
+.links {
+  text-decoration: none;
+  color: gray;
+}
