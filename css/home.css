@@ -448,6 +448,6 @@ a:hover {
   top: 0;
 }
 
-.submenu {
+.submenu, .has-children {
   z-index: 1000;
 }
