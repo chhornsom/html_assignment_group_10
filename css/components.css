@@ -341,10 +341,12 @@ footer p {
 /* new update */
 
 element.style {
-@media (min-width: 768px)
-.container{
+@media (min-width: 768px) {
+  .container{
     width: 750px;
+  }
 }
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -404,4 +406,7 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+}
+.submenu, .has-children {
+  z-index: 1000;
 }

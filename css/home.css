@@ -447,3 +447,7 @@ a:hover {
   right: 0;
   top: 0;
 }
+
+.submenu, .has-children {
+  z-index: 1000;
+}

@@ -338,3 +338,7 @@ footer p {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+.submenu, .has-children {
+  z-index: 1000;
+}
