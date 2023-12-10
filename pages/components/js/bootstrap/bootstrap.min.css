@@ -6321,6 +6321,7 @@ button.close {
     background: 0 0;
     border: 0;
     -webkit-appearance: none;
+    appearance: none;
 }
 
 .modal-open {
